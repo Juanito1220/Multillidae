@@ -136,6 +136,51 @@ display:block;
 H1{
   text-align: center;
 }
+
+.descripcion{
+    background-color: #CDABED;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+   padding: 20px;
+}
+
+table{
+    margin: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 2px solid black;
+}
+
+.columna{
+    background-color: darkgrey;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.botones{
+    text-align: center;
+  
+}
+
+.boton3{
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 /***INICIO tecnologias********/
 
 #marcas h3{
@@ -208,34 +253,34 @@ width: 30%;
     margin: 20px;
     margin-left: 20px;
 }
-.footer-box .contacto ul>li{
+.footer-box .browser ul>li{
     flex-direction: column;
     text-decoration: none;
     list-style: none;
     color: white;
 }
-.footer-box .informacion ul>li{
+.footer-box .php ul>li{
     flex-direction: column;
     text-decoration: none;
     list-style: none;
     color: white;
 }
-.footer-box .informacion a {
+.footer-box .php a {
     text-decoration: none;
     color: white;
 }
-.footer-box .informacion li>a:hover {
+.footer-box .php li>a:hover {
     color: black;
     background-color: #ffffff;
 }
-.footer-box .pagos ul>li{
+.footer-box .dowload ul>li{
     flex-direction: row;
     justify-content:space-around;
     text-decoration: none;
     list-style: none;
     color: white;
 }
-.footer-box .pagos i{
+.footer-box .dowload i{
     display: flex;
     font-size: 32px;
 }

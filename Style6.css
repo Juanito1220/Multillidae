@@ -206,34 +206,35 @@ width: 30%;
     margin: 20px;
     margin-left: 20px;
 }
-.footer-box .contacto ul>li{
+.footer-box .browser ul>li{
     flex-direction: column;
     text-decoration: none;
     list-style: none;
     color: white;
 }
-.footer-box .informacion ul>li{
+.footer-box .php ul>li{
     flex-direction: column;
     text-decoration: none;
     list-style: none;
     color: white;
 }
-.footer-box .informacion a {
+.footer-box .php a {
     text-decoration: none;
     color: white;
 }
-.footer-box .informacion li>a:hover {
+.footer-box .php li>a:hover {
     color: black;
     background-color: #ffffff;
 }
-.footer-box .pagos ul>li{
+.footer-box .dowload ul>li{
     flex-direction: row;
     justify-content:space-around;
     text-decoration: none;
     list-style: none;
     color: white;
+    background-color: #393939;
 }
-.footer-box .pagos i{
+.footer-box .dowload i{
     display: flex;
     font-size: 32px;
 }
