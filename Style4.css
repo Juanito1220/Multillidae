@@ -1,0 +1,298 @@
+*{
+    margin: 6px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Delius Unicase';
+    background-color: #ffffff;
+    zoom: 85%;
+}
+/***INICIO Barra cabecera********/
+.container-header{
+    background-color:#CDABED;
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between
+}
+.container-header .info {
+    color: white;
+    font-size: 12px; 
+    margin: 0px 30px;
+    padding: 5px;
+    justify-content: flex-start;
+}
+.container-header
+.button-header {
+    display: inline-flex;
+    margin-top: -5px;
+}
+.btn-ingresar,
+.btn-registrarse {
+    background-color:rgb(14, 108, 239);
+    color: white;
+    font-family: 'Delius Unicase';
+    font-size: 12px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-registrarse{
+    margin-top:5px;
+}
+.btn-ingresar {
+    background-color:#CDABED;
+    color: black;
+    border: solid rgb(232, 231, 231);
+   
+}
+
+.menu{
+    margin-top: -2px;
+}
+
+    ul{
+        list-style: none;
+    }
+
+.nav li a{
+background-color: #ccc9ce;
+color: #222222;
+text-decoration: none;
+padding: 3px 20px;
+border-radius: 5px;
+
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+display:block;
+}
+
+
+/***FIN Barra cabecera********/
+
+/***INICIO Logo, Menu********/
+.container-main {
+    display: flex;   
+
+}
+
+.container-main li{
+ 
+    border: solid #393939;
+    border-radius: 5px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 200px;
+    
+}
+
+/***FIN Logo, menu********/
+
+/***INICIO Menu********/
+.main-navbar {
+    display:flex;
+    justify-content: flex-start;
+    margin: 10px;
+    
+}
+.main-navbar a{
+    text-decoration:  none;
+    color: #222222;
+    display: inline-block;
+    padding: 2px 0;
+    font-size: 13px;
+}
+.main-navbar ul {
+    display:flex;
+    margin: auto;
+    border-color: #222222;
+}
+.main-navbar li {
+    margin: 0px 5px;
+    margin-left: 90px;
+    list-style: none;
+    
+}
+
+/***FIN Menu********/
+H1{
+  text-align: center;
+}
+/***INICIO descripcion********/
+
+.information{
+    background-color: #CDABED;
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.images2{
+    height: 300px;
+    width: 500px;
+    background-color: blue;
+    margin-top: 50px;
+    float: left;
+    
+    
+}
+
+
+
+.contenedor2{
+    margin-left:15%;
+}
+
+
+.title{
+    font-weight: bold;
+    margin: 50px;
+}
+
+
+
+.boton2{
+    width: 90px;
+    margin-top: 30px;
+    font-size: larger;
+    border-radius: 10px;
+}
+/***INICIO tecnologias********/
+
+#marcas h3{
+   text-align: center;
+    margin-top: 90px;
+}
+.slider{
+    background-color:#ccc9ce;
+    width: auto;
+    height: 140px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+}
+
+.slider ul{
+    display:flex;
+    padding: 0;
+    width: 300%;
+    animation:  cambio 20s infinite alternate;
+   
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+    
+}
+
+.images_slider{
+
+    width: 200px ;
+    height: 100px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+
+.slider img{
+width: 30%;
+
+}
+
+section{
+    margin-top: 1200px;
+}
+
+/***INICIO Footer********/
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    background-color: #CDABED;
+    margin-top: 40px;
+}
+.footer-box h3 {
+    text-align: start;
+    margin: 20px;
+    margin-left: 20px;
+}
+.footer-box .contacto ul>li{
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.footer-box .informacion ul>li{
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.footer-box .informacion a {
+    text-decoration: none;
+    color: white;
+}
+.footer-box .informacion li>a:hover {
+    color: black;
+    background-color: #ffffff;
+}
+.footer-box .pagos ul>li{
+    flex-direction: row;
+    justify-content:space-around;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.footer-box .pagos i{
+    display: flex;
+    font-size: 32px;
+}
+.footer-box .mapa-box {
+    width: 360px;
+    height:250px;
+    border: solid 1px #393939;
+}
+.footer-box .mapa-box iframe {
+    width: 360px;
+    height:250px;
+    margin: 0;
+}
+/***FIN Footer********/
